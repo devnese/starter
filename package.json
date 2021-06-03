@@ -1,0 +1,14 @@
+{
+  "name": "devnese-starter",
+  "version": "1.0.0",
+  "author": "Thanh Vu",
+  "main": "app.ts",
+  "license": "UNLICENCE",
+  "scripts": {
+    "dev": "ts-node-dev --exit-child --respawn --pretty --transpile-only src/app.ts"
+  },
+  "dependencies": {
+    "devnese": "^1.0.2"
+  },
+  "devDependencies": {}
+}
